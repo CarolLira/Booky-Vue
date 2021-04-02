@@ -1,24 +1,24 @@
-import { createRouter, createWebHashHistory } from 'vue-router';
+import { createRouter, createWebHistory } from 'vue-router';
+import NotFound from '../views/NotFound.vue';
 import Home from '../views/Home.vue';
+import Login from '../views/Login.vue';
+import Register from '../views/Register.vue';
+import NewPassword from '../views/NewPassword.vue';
+import ReadingList from '../views/ReadingList.vue';
+import AddBook from '../views/AddBook.vue';
 
 const routes = [
-  {
-    path: '/',
-    name: 'Home',
-    component: Home,
-  },
-  {
-    path: '/about',
-    name: 'About',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue'),
-  },
+  { path: '/:pathMatch(.*)*', name: 'NotFound', component: NotFound },
+  { path: '/', name: 'Home', component: Home },
+  { path: '/login', name: 'Login', component: Login },
+  { path: '/cadastro', name: 'Register', component: Register },
+  { path: '/novaSenha', name: 'NewPassword', component: NewPassword },
+  { path: '/lista', name: 'ReadingList', component: ReadingList },
+  { path: '/adicionar', name: 'AddBook', component: AddBook },
 ];
 
 const router = createRouter({
-  history: createWebHashHistory(),
+  history: createWebHistory(),
   routes,
 });
 

@@ -1,0 +1,78 @@
+/* Colors */
+$light-purple: #9a8cff;
+$purple: #50488e;
+$darker-purple: #4c4484;
+$dark-purple: #3f3d56;
+$light-green: #00bfa6;
+$light-pink: #ff9eb2;
+$soft-pink: #ffbfd1;
+$white: #f2f2f2;
+$black: #252222;
+$gray: #bfbfbf;
+$gray-input-placeholder: #9c9c9c;
+$dark-gray: #2d2a2a;
+$black-shadow: #171717;
+$black-input-background: #0b0b0b;
+
+/* Fonts */
+$text-font: "Roboto", sans-serif;
+$title-font: "Indie Flower", cursive;
+
+/* Values */
+$button-shadow: 0 4px 8px rgba(30, 60, 90, 0.2);
+
+/* Mixins */
+@mixin inputIcon($image) {
+  background: url($image) no-repeat scroll 10px 10px;
+  background-size: 18px;
+}
+
+@mixin inputIcon-AddBook($image) {
+  background: url($image) no-repeat scroll 10px 14px;
+  background-size: 18px;
+}
+
+/* Extends */
+%flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+%button-scale {
+  -webkit-transform: scale(1.025);
+  transform: scale(1.025);
+}
+
+%button-default {
+  padding: 12px 10px;
+  background: $darker-purple;
+  border-radius: 4px;
+  color: $white;
+  text-align: center;
+  box-shadow: $button-shadow;
+  transition: all 0.3s;
+  border: none;
+  cursor: pointer;
+  width: 300px;
+  margin-bottom: 20px;
+  font-family: $text-font;
+  font-weight: 400;
+  font-size: 1.2rem;
+  &:focus {
+    outline: none;
+  }
+  &:hover {
+    background: $purple;
+    @extend %button-scale;
+  }
+}
+
+%form-box {
+  @extend %flex-column;
+  justify-content: center;
+  width: 450px;
+  background-color: $dark-gray;
+  margin: 0 80px;
+  box-shadow: 2px 2px 15px 0px $black-shadow;
+  border-radius: 6px;
+}

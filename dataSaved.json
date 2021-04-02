@@ -1,0 +1,64 @@
+{
+    "books": [
+      {
+        "id": 1,
+        "name": "Harry Potter e a Pedra Filosofal",
+        "img": "https://extra.globo.com/incoming/24499836-e66-7df/w533h800/88031773_colecao-especial-lancada-pela-editora-rocco-a-saga-de-harry-potter-completa-20-anos-no-bras.jpg",
+        "author": "J.K. Rowlling"
+      },
+      {
+        "id": 2,
+        "name": "Harry Potter e a Câmera Secreta",
+        "img": "https://m.leitura.com.br/resizer/view/600/600/true/false/129630.jpg",
+        "author": "J.K. Rowlling"
+      },
+      {
+        "id": 3,
+        "name": "Harry Potter e o Prisioneiro de Azkaban",
+        "img": "https://lh3.googleusercontent.com/-y2lW7e0SImQ/Xonncdxs4PI/AAAAAAAAH6I/3oY5NMYKmggXexoRuq5upDNXBaeSQMyDwCLcBGAsYHQ/s1600/1586095979299375-5.png",
+        "author": "J.K. Rowlling"
+      },
+      {
+        "id": 4,
+        "name": "Harry Potter e o Cálice de Fogo",
+        "img": "https://i1.wp.com/naoseinada.com.br/wp-content/uploads/2020/05/harry-potter-20-anos3.jpg?resize=640%2C960&ssl=1",
+        "author": "J.K. Rowlling"
+      },
+      {
+        "id": 5,
+        "name": "Harry Potter e a Ordem da Fenix",
+        "img": "https://spinoff.com.br/wp-content/uploads/capa_hp_20_anos5.jpg",
+        "author": "J.K. Rowlling"
+      },
+      {
+        "id": 6,
+        "name": "Harry Potter e o Enigma do Príncipe",
+        "img": "https://m.leitura.com.br/resizer/view/600/600/true/false/129631.jpg",
+        "author": "J.K. Rowlling"
+      },
+      {
+        "id": 7,
+        "name": "Harry Potter e as Relíquias da Morte",
+        "img": "https://cdn.awsli.com.br/800x800/549/549583/produto/57455394/e078b9f1d2.jpg",
+        "author": "J.K. Rowlling"
+      },
+      {
+        "id": 8,
+        "name": "O Guia do Mochileiro das Galáxias",
+        "img": "https://images-na.ssl-images-amazon.com/images/I/819aEjaXniL.jpg",
+        "author": "Douglas Adams"
+      },
+      {
+        "id": 9,
+        "name": "O Hobbit",
+        "img": "https://m.media-amazon.com/images/I/51S6-VeaHJL.jpg",
+        "author": "J.R.R. Tolkien"
+      },
+      {
+        "id": 10,
+        "name": "As Crônicas de Nárnia",
+        "img": "https://images-na.ssl-images-amazon.com/images/I/71yJLhQekBL.jpg",
+        "author": "C.S. Lewis"
+      }
+    ]
+  }
